@@ -2,9 +2,19 @@
 
  - Create React App
  - configure TaiwindCss
- - Header
+ - Head er
+ - Routing of App
  - Login Form
  - Sign up Form
+ - Form validation
+ - useRef Hook
+ - firebase setup
+ - create Signup user Account
+ - impliment sign in user API
+ - create Redux store with userSlice 
+ - Impliment Sign out
+ - Update profile
+ - 
 
  # Features
  - Login/Signup
