@@ -52,7 +52,7 @@ const Header = () => {
           <img
             className="w-12 h-12 rounded-md mx-2 "
             src={user.photoURL}
-            alt=""
+            alt="user image"
           />
           <button
             onClick={handleSignout}
