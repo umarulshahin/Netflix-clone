@@ -24,7 +24,7 @@ const Login = () => {
 
     if (message) return;
 
-    if (!isSignInForm) {
+    if (!isSignInForm) { 
       createUserWithEmailAndPassword(
         auth,
         Email.current.value,
@@ -33,7 +33,6 @@ const Login = () => {
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
-          console.log(user);
           updateProfile(user, {
             displayName: Username.current.value,
             photoURL: photoURL,
